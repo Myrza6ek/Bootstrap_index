@@ -1,0 +1,45 @@
+ul {
+  list-style-type: none;
+  width: 500px;
+}
+.btn {
+  height: 48px;
+  border-radius: 0px;
+}
+.main-image {
+  background: url("./media/3792\ 1coffe.png");
+  height: 615px;
+  background-size: cover;
+}
+
+li {
+  position: relative;
+}
+
+.active::after {
+  position: absolute;
+  bottom: -15px;
+  left: 0px;
+  content: "";
+  height: 2px;
+  width: 20px;
+  background-color: red;
+}
+.about-us h1 {
+  font-size: 50px;
+}
+.about-us h4 {
+  font-weight: bold;
+}
+.services {
+  background-color: #f6f8f6f8;
+}
+i::before {
+  font-size: 40px;
+}
+.staff__avatar {
+  background: url("./media/png-transparent-computer-icons-woman-avatar-avatar-girl-thumbnail.png");
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+}
